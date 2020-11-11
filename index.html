@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Github Issues lister</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1>GitHub Repo Issues</h1>
+		<div class="App-intro">
+			<h3 class="message error"></h3>
+		</div>
+		<div class="github-issues">
+			<form class="my-form">
+				<input type="text" class="repo" placeholder="Ex. iamtodorg/portfolio" />
+				<button type="submit">Lookup</button>
+			</form>
+			<h3 class="success">Github Issues for: <span class="repo-name"></span></h3>
+		</div>
+		<div class="issue-wrap"></div>
+	</div>
+	<!-- /.container -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
